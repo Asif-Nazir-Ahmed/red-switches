@@ -29,7 +29,7 @@ body {
 
 /* header Start */
 header {
-    background-image: url(../Red-Switch/bg.jpg);
+    background-image: url(./bg.jpg);
     background-position: center;
     background-size: cover;
     width: 100vw;
