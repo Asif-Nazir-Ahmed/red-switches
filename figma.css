@@ -7,14 +7,35 @@
     font-family: 'Inter', sans-serif;
     ;
 }
-
+/* header start */
 body {
     height:auto;
     font-family: 'Inter';
 }
+.L-R{
+    position: absolute;
+    top: 5rem;
+    display: flex;
+    align-items: center;
+    margin-left: 5rem;
+
+}
+.Red p{
+    color: #FFFFFF;
+    font-size: 22px;
+    
+
+}
+.L img{
+    width: 25px;
+}
+.L{
+    width: 34px;
+}
+
 .paragraph .single{
     
-  background: linear-gradient(to bottom, #FB2726 , #FF7C33);
+  background: linear-gradient(to bottom,  #FF7C33 ,#FB2726);
   background-clip:text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -27,23 +48,25 @@ body {
     -webkit-text-fill-color: transparent;
 }
 
-/* header Start */
 header {
     background-image: url(./bg.jpg);
     background-position: center;
     background-size: cover;
     width: 100vw;
-    height:110vh;
+    height:130vh;
 }
 
 #container {
-    width: 80%;
+    width:90%;
     margin: auto;
 }
 
 .cont {
     display: flex;
-    padding-top: 5rem;
+    padding-top: 11rem;
+    align-items: center;
+    margin-left: 4rem;
+    
 }
 
 .paragraph {
@@ -51,27 +74,21 @@ header {
     height: 327px;
     line-height: 55px;
     color: #FFFFFF;
-    margin-top: 6rem;
+    margin-top: 3rem;
     width: 500px;
     font-size: 40px;
-    font-weight: 700px;
-    
+    font-weight: 700px;   
 }
 
 .transfarmer img {
+    /* padding-top: 6rem; */
     width: 500px;
+    /* margin-left: 26rem; */
 }
-
-
-
 .star-3{
     display: flex;
+    margin-left: 4rem;
     
-    
-}
-.fff{
-    display: flex;
-    justify-content: space-between;
 }
 
 .button button{
@@ -79,43 +96,38 @@ header {
     height: 50px;
     color: aliceblue;
     background: linear-gradient(90deg, #FD654F 1.94%, #F38C27 100%);
+    cursor: pointer;
 
 
 }
 
 .star img{
-    margin-left: 3rem;
+   padding-top: 0.5rem;
+    margin-left: 1rem;
     width: 150px;
 }
 .Score p{
     font-size: 13px;
     color: #FFFFFF;
-    margin-left:3rem;
-    margin-top: 2rem;
+    margin-left:1rem;
+    padding-top: 3rem;
+
 
    
 }
+/* Header complete */
+/* Header Compete */
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-.he p {
-    align-items: center;
-    color: #FFFFFF;
-    padding-top: 1rem;
-
+/* One Believed  Start*/
+/* One Believed  Start*/
+ 
+#card{
+   margin-top: 4rem;
+}
+.One-Believed{
+    text-align: center;
 }
 
 .heading {
@@ -126,60 +138,54 @@ header {
     font-size: 33px;
 }
 .heading .red{
-    color:rgb(231, 20, 20);
+    background: linear-gradient(to bottom,  #FF7C33 ,#FB2726);
+    background-clip:text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.Dt{
+    color: #7C3AED;
 }
 .heading .b-m{
-    color:#6941C6;
+    color:#7C3AED;
 }
-button.btn-11 {
-    /* position: absolute;
-    left: 39%;
-    top: 145%; */
-    margin-top: 2rem;
-    padding: 15px 50px;
-    border-radius: 5rem;
-    border: none;
-    color: #FFFFFF;
-    background: linear-gradient(90deg, #FD654F 1.94%, #F38C27 100%);
-    box-shadow: 0px 10.6667px 26.6667px rgba(255, 145, 14, 0.6);
-
+.monthly img{
+    width: 300px;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
 }
-.monthly {
-    text-align: center;
-    margin-top: 2rem;
+.get-service img{
+    margin-top: 1rem;
+    width: 400px;
+    cursor: pointer;
 }
 
-.monthly span {
-    color: #6941C6;
+
+/* One Believd  Complete*/
+/* One Believed  Complete*/
+
+#Card{
 }
+.Card-wraper{
 
-.links a img {
-    width: 25px;
-
+    width: 80%;
+    margin: auto;
 }
-
-.links {
-    padding-top: 2rem;
-
-}
-
-.links p {
-    font-family: 'Inter', sans-serif;
-    ;
-    color: #344054;
-    text-align: center;
-    padding-bottom: 1rem;
-
+.card-3{
+    display: flex;
+    justify-content:space-evenly;
 }
 
 .card {
-    height: 530px;
+    height: 550px;
     width: 300px;
-    border: 1px solid rgb(184, 183, 183);
+    border: 1px solid rgb(201, 201, 201);
     border-radius: 1rem;
-    box-shadow: 0 0.5rem 0.4rem rgba(0, 0, 0, 0.6);
-
+    box-shadow: 0 0.5rem 0.6rem rgba(0, 0, 0, 0.2);
+    background: #FFFFFF;
 }
+
+
 
 .head {
     text-align: center;
@@ -199,7 +205,6 @@ button.btn-11 {
     padding-top: 2rem;
     font-size: 12px
 }
-
 .head-2 p {
     padding-top: 1rem;
     color: #FD654F;
@@ -212,79 +217,68 @@ button {
     margin-top: 1rem;
 }
 
-.btn-1 {
-    padding: 15px 80px;
-    background: #6941C6;
-    border-radius: 0.5rem;
-    color: #FFFFFF;
-    border: none;
-    margin-bottom: 1rem;
-
+.margin{
+    margin-top:2rem;
+    margin-bottom: 2rem;
 }
-
-.btn-2 {
-    padding: 13px 68px;
-    border-radius: 0.5rem;
-    color: #344054;
-    border: 1px solid rgb(184, 183, 183);
-    background: white;
-
-}
-
-.btn-2 {
-    padding: 13px 68px;
-    border-radius: 0.5rem;
-    color: #344054;
-    border: 1px solid rgb(184, 183, 183);
-    background: white;
-}
-
-#card-wraper {
-    background: gray;
-
-}
-
-.card-3 {
-    padding-top: 2rem;
-    width: 80%;
-    margin: auto;
+.ch-ph{
     display: flex;
-    justify-content: space-between;
+    align-items: center;
+    margin-top:0.5rem;
 }
+.check{
+    width:35px;
+    margin-left: 1rem;
+
+}
+.check img{
+    width: 21px;
+}
+    
+.ph p{
+    color:#475467;
+    margin-left: 0.5rem;
+    font-size: 13px;
+    font-weight:10px;
+}
+
+.order button {
+    padding: 13px 97px;
+    border-radius: 0.5rem;
+    color:#FFFFFF;
+    border: 1px solid ghostwhite;
+    background: #7C3AED;
+
+}
+
+.chat button{
+    padding: 13px 89px;
+    border-radius: 0.5rem;
+    color: #344054;
+    border: 1px solid rgb(184, 183, 183);
+    background: Gray;
+}
+
 
 .card-color {
-    box-shadow: 0 0.5rem 0.4rem rgba(0, 0, 0, 0.6);
-    height: 530px;
+    box-shadow: 0 0.5rem 0.6rem rgba(0, 0, 0, 0.2);
+    height: 550px;
     width: 300px;
     border: 1px solid rgb(184, 183, 183);
     border-radius: 1rem;
-
-    background-color: #0F0D3E;
-}
-
-.card-color:hover {
-    box-shadow: 0 0.5rem 0.4rem rgba(0, 0, 0, 0.6);
-    height: 530px;
-    width: 300px;
-    border: 1px solid rgb(184, 183, 183);
-    border-radius: 1rem;
-    background: black;
+    transition-property: background ;
     transition-duration: 1s;
+    background-color:#0F0D3E;
 }
 
-.btn-1-c {
+.head-2 p{
+    color: #FD654F;
 
-    padding: 15px 80px;
-    border-radius: 0.5rem;
-    color: #FFFFFF;
-    border: none;
-    margin-bottom: 1rem;
-    background: linear-gradient(90deg, #FD654F 1.94%, #F38C27 100%);
-    box-shadow: 0px 1.33333px 2.66667px rgba(16, 24, 40, 0.05);
+
+
 }
-
 .card-color h2 {
-    color: #FFFFFF;
+    color: white;
 }
 
 .card-color p {
@@ -292,7 +286,70 @@ button {
 }
 
 .card-color h3 {
-    color: #FD654F;
+    color:white;
+}
+
+.order-1 button {
+    cursor: pointer;
+
+    padding: 15px 97px;
+    border-radius: 0.5rem;
+    color: #FFFFFF;
+    border: none;
+    margin-bottom: 1rem;
+    background: linear-gradient(90deg, #FD654F 1.94%, #F38C27 100%);
+    box-shadow: 0px 1.33333px 2.66667px rgba(16, 24, 40, 0.05);
+}
+.chat-1 button{
+    padding: 15px 88px;
+    border-radius: 0.5rem;
+    color: #FFFFFF;
+    border: none;
+    margin-bottom: 1rem;
+    background: #FFFFFF;
+    color: #344054;
+    cursor: pointer;
+    
+}
+
+.order button {
+cursor: pointer;
+
+    padding: 15px 97px;
+    border-radius: 0.5rem;
+    color: #FFFFFF;
+    border: none;
+    margin-bottom: 1rem;
+    border: 1px solid Gray;
+}
+.chat button{
+    padding: 15px 88px;
+    border-radius: 0.5rem;
+    color: #FFFFFF;
+    border:1px solid #D0D5DD;
+    margin-bottom: 1rem;
+    background:#FFFFFF;
+    color: #344054;
+}
+.card-3{
+    padding-top: 4rem;
+}
+
+
+
+/* card-wraper complete */
+/* 
+<div class="head-2">
+<h3>1x E-2388G</h3>
+<p>Passmark:23815</p>
+<
+} */
+
+#form {
+    margin-top: 4rem;
+    background-color: #FEF3C7;
+    height:150vh;
+
 }
 
 .Heading {
@@ -302,24 +359,80 @@ button {
 
 }
 
-
 .Heading p {
-
+    padding-top: 10rem;
     font-size: 35px;
     line-height: 3rem;
-    font-weight: bold;
+    font-weight: 800px;
     color: black;
 
 }
-
-.bt button {
-    margin-top: 2rem;
+.yes{
+    margin-top: 1rem;
+    text-align: center;
 }
+.mark{
+    width: 80%;
+    margin: auto;
+
+}
+.asif-mughal{
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+    margin-left: 18rem;
+    width: 700px;
+    height: 40px;
+    background: #FFFFFF;
+    border-radius: 0.5rem;
+    color: #344054;
+    box-shadow: 0px 16px 21.3333px -5.33333px rgba(16, 24, 40, 0.08), 0px 5.33333px 8px -2.66667px rgba(16, 24, 40, 0.03);
+
+
+
+}
+.p-1 span{
+    color: #FB2726;
+}
+.dont p{
+    margin-top:12px;
+    height: 30px;
+    margin-left:2rem;
+    font-size:13px;
+}
+
+.box img{
+    margin-top:4px ;
+    margin-left: 1rem;
+    width: 20px;
+    cursor: pointer;
+}
+
+.buttom-ph{
+    font-weight: 700px;
+    line-height: 2.5rem;
+    font-size: 30px;
+    margin-top: 4rem;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+/* you  are currently complete */
+/* you  are currently complete */
+
+ /*  USE-CASE-CARD  */
+ /*  USE-CASE-CARD  */
 
 button {
     padding: 0.5rem;
-    border-radius: 0.5rem;
-    background-color: #FFFFFF;
+    border-bottom-left-radius:6px;
+    border-bottom-right-radius:6px ;
     box-shadow: 0px 1.33333px 2.66667px rgba(16, 24, 40, 0.05);
     border: none;
     color: #344054;
@@ -330,29 +443,30 @@ button {
     color: #FFFFFF;
 }
 
-#form {
-    margin-top: 4rem;
-    background-color: #FEF3C7;
-    height: 100vh;
-
-}
 
 #wrap .fl-2 {
-    box-shadow: 0 0.5rem 0.4rem rgba(0, 0, 0, 0.6);
+    box-shadow: 0 0.5rem 0.4rem rgba(0, 0, 0, 0.2);
     width: 300px;
-    height: 530px;
-    border: 1px solid black;
+    height: 600px;
     border-radius: 0.5rem;
-    border: none;
     background: #FFFFFF;
+}
+.pic-2 img{
+    width: 230px;
+    display: block;
+    margin: auto;
+
 }
 
 .bbb {
     text-align: center;
+    margin-bottom: 2rem;
 }
 
 .pic {
+
     margin-top: 1rem;
+
 
 }
 
@@ -377,7 +491,7 @@ button {
     font-weight: 200;
     font-size: 15px;
     margin-top: 2rem;
-    /* text-align: justify; */
+
 }
 
 .cr {
@@ -386,11 +500,29 @@ button {
     display: flex;
     justify-content: space-between;
     position: relative;
-    bottom: 2rem;
+    bottom: 3rem;
 }
 
 .icon img {
     width: 35px;
+}
+
+
+
+
+#wrap{
+    height: 100vh;
+}
+
+
+
+
+
+
+
+
+.icon{
+    margin-top:4px;
 }
 
 .foot {
@@ -410,7 +542,14 @@ button {
     justify-content: space-between;
 
 }
+.ic{
+    display: flex;
+    
+}
+.img-2{
+margin-left: 6rem;
 
+}
 .icon {
     display: flex;
     margin-left: 1.5rem;
